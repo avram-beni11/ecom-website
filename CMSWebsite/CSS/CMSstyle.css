@@ -1,0 +1,309 @@
+/* design nav bar */
+.navBar {
+  overflow: hidden;
+  background-color: #202020;
+  font-family: Arial; /* change font */
+}
+/* push certain elements to right side of nav bar */
+.navBarRight {
+  float: right;
+}
+/* design each element on navigation bar */
+.navBar a {
+  float: left;
+  font-size: 13px;
+  color: white;
+  padding: 15px 40px;
+  text-decoration: none;
+  font-weight: bold; /* bold text */
+  border-radius: 15px; /* curved edges */
+  position: relative;
+  margin-left: 15px;
+  top: 18px;
+}
+/* change effect where hovering over nav bar elements */
+.navBar a:hover {
+  background-color: #585858;
+  border: 2px ridge #181818;
+}
+.logoutBtn {
+  margin-left: 170px;
+  width: 358px;
+  height: 35px;
+  background-color: #990000;
+  cursor: pointer;
+  color: whitesmoke;
+  font-weight: bolder;
+  margin-top: 10px;
+  box-shadow: 0 5px 15px 1px black;
+}
+/* resize logo*/
+.logo {
+  width: 250px;
+  height: 70px;
+  padding: 5px 0px;
+  position: relative;
+  overflow: auto;
+}
+/* resize footer/change colour of text/ position footer*/
+.footer {
+  text-align: center;
+  background-color: #202020;
+  color: whitesmoke;
+}
+/* keep logo on left side of page */
+.logoLeft {
+  float: left;
+}
+/* style logos from font awesome */
+.fa-instagram,
+.fa-snapchat,
+.fa-youtube,
+.fa-twitter,
+.fa-facebook {
+  background: #202020;
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+}
+.fa:hover {
+  color: red;
+  opacity: 0.8;
+}
+/* design CMS banner */
+.banner {
+  margin: 0 auto;
+  width: 100%;
+  background-image: url("../Images/banner.png");
+  outline: 2px ridge black;
+  border-radius: 5px;
+  height: 50px;
+  position: relative;
+  bottom: 19px;
+  text-align: center;
+}
+.active {
+  background-image: url("../Images/activeBg.png"); /* add image for active element */
+  color: black;
+}
+.text {
+  font-size: large;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+/* design border for most pages */
+.addBorder {
+  text-align: center;
+  border: 1px solid black;
+  margin: 0 auto;
+  width: 75%;
+  padding: 15px 10px;
+  position: relative;
+  top: 20px;
+}
+/* design border for most pages */
+.productBorder {
+  text-align: center;
+  border: 1px solid black;
+  margin: 0 auto;
+  width: 75%;
+  padding: 150px 20px;
+  position: relative;
+  top: 20px;
+}
+/* design header for all pages */
+.addHeader {
+  text-align: center;
+  border: 1px solid rgb(163, 163, 163);
+  margin: 0 auto;
+  width: 75%;
+  padding: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+/* position label on login page and input fields */
+label {
+  display: inline-block;
+  width: 110px;
+  font-size: medium;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+input {
+  margin-left: 30px;
+  height: 30px;
+  width: 400px;
+  border-radius: 10px;
+}
+/* design of table rows and columns*/
+table,
+td,
+th {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+th {
+  border: 2px solid gold;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #202020;
+  color: white;
+  width: 100px;
+}
+td {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #d8d8d8;
+  border: 2px solid red;
+  color: black;
+}
+/* design button on editProducts page */
+.saveBtn {
+  background-color: red;
+  border-radius: 15px;
+  height: 38px;
+  width: 100px;
+  cursor: pointer;
+  position: relative;
+  right: 83px;
+  font-weight: bolder;
+}
+/* design button on login page */
+.loginBtn {
+  margin-left: 170px;
+  width: 358px;
+  height: 35px;
+  background-color: #990000;
+  cursor: pointer;
+  color: whitesmoke;
+  font-weight: bolder;
+  margin-top: 100px;
+  box-shadow: 0 5px 15px 1px black;
+}
+.loginBtn:hover,
+.logoutBtn:hover {
+  background-color: red;
+  opacity: 0.8; /* lighter opacity when hovering */
+}
+.loginImg {
+  height: 100px;
+  width: 100px;
+  border: 2px solid black;
+  outline: 2px solid gold;
+  border-radius: 50%;
+  position: relative;
+  left: 289px;
+  top: 10px;
+}
+/* design border on login page */
+.border {
+  width: 45%;
+  background-color: whitesmoke;
+  margin: 0 auto;
+  margin-top: 20px;
+  border: 2px solid black;
+}
+/* design delete orders tab on login page */
+.del {
+  background-color: white;
+  border: 1px solid black;
+  width: 150px;
+  height: 30px;
+  /* position element */
+  margin-left: 169px;
+  position: relative;
+  top: 30px;
+  /* design font */
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: medium;
+  text-align: center;
+}
+/* design view orders tab on login page */
+.view {
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: medium;
+  background-color: white;
+  border: 1px solid black;
+  /* create size of element */
+  width: 150px;
+  height: 30px;
+  /* position element */
+  bottom: 2px;
+  position: relative;
+  left: 322px;
+}
+
+/* design tab on viewOrders page */
+.orders {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: red;
+  /* position element */
+  position: relative;
+  top: 12px;
+  left: -4px;
+  /* design element */
+  padding: 10px 85px;
+  text-decoration: none;
+  color: black;
+  margin-left: 173px;
+  border-radius: 8px;
+}
+/* design tab on viewOrders page */
+.delete {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: whitesmoke;
+  position: relative;
+  top: 12px;
+  left: -4px;
+  padding: 10px 85px;
+  text-decoration: none;
+  color: black;
+  border-radius: 8px;
+}
+/* design tab on deleteOrders page */
+.orders2 {
+  border-radius: 8px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: whitesmoke;
+  position: relative;
+  top: 12px;
+  left: 168px;
+  padding: 10px 85px;
+  text-decoration: none;
+  color: black;
+}
+/* design tab on deleteOrders page */
+.delete2 {
+  border-radius: 8px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: red;
+  position: relative;
+  top: 12px;
+  left: -4px;
+  padding: 10px 85px;
+  text-decoration: none;
+  color: black;
+  margin-left: 173px;
+}
+/* resize images on view products page */
+.games {
+  height: 130px;
+  width: 100px;
+}
+/* increase width in column of game description in add product page */
+.descriptionCol {
+  width: 200px;
+}
+.getBtn {
+  position: relative;
+  left: 0px;
+  background-color: red;
+  border-radius: 15px;
+  height: 38px;
+  width: 100px;
+  cursor: pointer;
+  font-weight: bolder;
+}
+.gameLogos {
+  height: 25px;
+  width: 100px;
+}

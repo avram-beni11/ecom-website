@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basket</title>
+    <!-- link to font awesome library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <!-- link to CSS page  -->
+    <link rel="stylesheet" type="text/css" href="../CSS/style.css"/> 
+    <body style="background-color:#D8D8D8;">  <!-- set background color -->
+      <!-- Create navigation bar -->
+    <div class="navBar">
+      <div class="logoLeft"> <!-- keep logo to left side of navigation bar -->
+      <img class="logo" src="../Images/shopLogo.png"  alt="Game Shop Logo"/>   
+      </div>
+  <!-- Add elements to navigation bar -->
+  <!-- Create links to all pages -->
+  <a href="index.html">Home</a>
+  <a href="product.html">Games</a>          
+          <input type="text" class="search" placeholder="Search...">  <!-- Add search bar-->
+          <button class="btn">Search</button>
+          <div class="rightNavBar">
+            <a href="login.html">Login | Register</a>
+                <a class="active" href="basket.html"><img class="basket" src="../Images/basket.png"  alt="basket icon"/></a>
+          </div>
+    </div>
+</head>
+<br>
+<div class="header">
+<h2 class="basketTitle">Basket</h2> <!-- create header at top of page -->
+</div>
+<div class="basketBorder"> <!-- create border around main content -->
+  <br><br>
+  <div class="product1"> <!-- create border around products-->
+    <img class="psGame3_basket" src="../Images/PS5Games/fifa22.jpg"  alt="Fifa 22 Image"/>
+    <h2>FIFA 22</h2>
+    <p>Console:<img class="consoleLogo_PS5" src="../Images/PS5Games/ps5Logo.png"/>
+    </p>
+    <p>Price: £59.99</p>
+    <p>Quantity:</p><input type="number" id="quantity" value="1"><br>
+    <br><br><br>
+  </div>
+  <br>
+  <div class="divider"> <!-- add a line to seperate products on page -->
+  </div> 
+</div>
+<div class="basketBorder"> 
+  <br><br>
+  <div class="product1"> <!-- create border around products-->
+    <img class="psGame3_basket" src="../Images/xboxGames/GTA.jpg"  alt="GTA Image"/> <!-- display image-->
+    <h2>GTA 5</h2>
+    <p>Console:<img class="consoleLogo_PS5" src="../Images/xboxGames/logo.png"/>
+    </p>
+    <p>Price: £49.99</p>
+    <p>Quantity:</p><input type="number" id="quantity" value="1"><br>
+    <br><br><br>
+  </div>
+  <br>
+  <div class="divider">    
+  </div>
+</div>
+<div class="basketBorder">
+  <br><br>
+  <div class="product1"> <!-- create border around products-->
+    <img class="psGame3_basket" src="../Images/switchGames/legendOfZelda.jpg"  alt="Legend of Zelda Image"/>
+    <h2>The Legend of Zelda</h2>
+    <p>Console:<img class="consoleLogo_switch" src="../Images/switchGames/logo.png"/>
+    </p>
+    <p>Price: £49.99</p>
+    <p>Quantity:</p><input type="number" id="quantity" value="1"><br>
+    <br><br><br>
+  </div>
+  <br>
+  <div class="divider">    
+  </div>
+  <p class="total">Total: £159.97</p> <!-- display total price-->
+  <br><br><br>
+</div>
+<!-- Create footer -->
+<footer>
+  <div class="footer">
+    <p>GameShop<br></p>
+    <!-- Add social media logos from font awesome library -->
+    <a href="https://twitter.com/?lang=en" class="fa fa-twitter"></a>
+    <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+    <a href="https://www.snapchat.com/" class="fa fa-snapchat"></a>
+    <a href="https://www.youtube.com/" class="fa fa-youtube"></a>
+    <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+  </div>
+</footer>
+<!-- close tags-->
+</body>
+</html>

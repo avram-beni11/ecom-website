@@ -1,0 +1,1049 @@
+/* styling navigation bar */
+.navBar {
+  overflow: hidden;
+  background-color: #202020;
+  font-family: Arial;
+  padding: 0px;
+}
+/* push content to right side of navigation bar */
+.rightNavBar {
+  float: right;
+}
+
+.quantity, .price, .console  {
+  text-align: center;
+  padding: 0px 15px;
+}
+.name {
+  text-align: left;
+  padding: 0px 15px;
+}
+#name3 {
+  position: relative;
+  top: 0px;
+  right: 107px;
+  margin-left: 120px;
+  height: 28px;
+  width: 350px;
+}
+.thName {
+  text-align: left;
+  padding: 0px 15px;
+}
+.navElem {
+  position: relative;
+  bottom: 40px;
+}
+/* style text in nav bar */
+.navBar a {
+  float: left;
+  font-size: 13px;
+  color: white;
+  padding: 15px 40px;
+  text-decoration: none;
+  font-weight: bold; /* bold text */
+  border-radius: 15px; /* curved edges */
+  /* postion elements in nav bar */
+  position: relative;
+  margin-left: 15px;
+  top: 18px;
+}
+/* style hover colour in nav bar */
+.navBar a:hover {
+  background-color: #585858;
+  border: 2px ridge #181818;
+}
+/* style search bar */
+#search {
+  width: 530px;
+  height: 32px;
+  position: relative;
+  top: 18px;
+  left: 10px;
+  border-radius: 10px;
+}
+/* style logo - size and position */
+.logo {
+  width: 250px;
+  height: 70px;
+  padding: 5px 0px;
+  position: relative;
+  overflow: auto;
+}
+/* style footer - colour and text style*/
+.footer {
+  text-align: center;
+  background-color: #202020;
+  color: whitesmoke;
+}
+/* style basket image */
+.basket {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  top: 30;
+  padding: 0px;
+}
+.active {
+  background-image: url("../Images/activeBg.png"); /* add background image to active page element*/
+  color: black;
+}
+/* style search button */
+.search-form input[type="submit"] {
+  width: 100px; /* size*/
+  height: 39px;
+  position: relative; /* position */
+  left: 10px;
+  top: 20px; /* border style/colour*/
+  border-radius: 10px;
+  border: 3px solid #990000;
+  color: #990000; /* font style*/
+  font-weight: bold;
+  font-size: 14px;
+  background-color: #202020;
+  cursor: pointer; /* change cursor when hovering over button*/
+}
+
+.backgroundImg {
+  height: 700px;
+  width: 1582px;
+}
+/* design borders, size and postions for PS5 game images */
+.psGame1,
+.psGame2,
+.psGame3 {
+  border: 4px ridge#909090;
+  box-shadow: 0 5px 10px 0 blue;
+  margin-left: 10px;
+  padding: 2px;
+  position: relative;
+  left: 15px;
+  border-radius: 10px;
+  height: 100px;
+  width: 75px;
+}
+.psGame2 {
+  position: relative;
+  bottom: 180px;
+  left: 129px;
+}
+.psGame3 {
+  position: relative;
+  bottom: 361px;
+  left: 245px;
+}
+/* design borders, size and postions for nintendo switch game images */
+.switchGame1,
+.switchGame2,
+.switchGame3 {
+  border: 4px ridge#909090;
+  box-shadow: 0 5px 10px 0 red;
+  position: relative;
+  left: 7px;
+  border-radius: 10px;
+  margin-left: 18px;
+  padding: 2px;
+  height: 100px;
+  width: 75px;
+}
+.switchGame2 {
+  position: relative;
+  bottom: 192px;
+  left: 122px;
+}
+.switchGame3 {
+  position: relative;
+  bottom: 377px;
+  left: 236px;
+}
+/* design borders, size and postions for xbox game images */
+.xboxGame1,
+.xboxGame2,
+.xboxGame3 {
+  border: 4px ridge#909090;
+  box-shadow: 0 5px 10px 0 green;
+  border-radius: 10px;
+  position: relative;
+  left: 24px;
+  margin-left: 0px;
+  padding: 2px;
+  height: 100px;
+  width: 75px;
+}
+.xboxGame2 {
+  position: relative;
+  bottom: 178px;
+  left: 140px;
+}
+.xboxGame3 {
+  position: relative;
+  bottom: 354px;
+  left: 255px;
+}
+/* create design around all game images */
+.game1,
+.game2,
+.game3,
+.game4,
+.game5,
+.game6,
+.game7,
+.game8,
+.game9 {
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  max-width: 300px;
+  margin-left: 9px;
+  width: 50%;
+  text-align: center;
+  font-family: arial;
+}
+/* position all game images on games page */
+.game1 {
+  position: relative;
+  top: 5px;
+  right: 0px;
+}
+.game2 {
+  position: relative;
+  bottom: 415px;
+  left: 410px;
+}
+.game3 {
+  position: relative;
+  bottom: 834px;
+  left: 808px;
+}
+.game4 {
+  position: relative;
+  bottom: 800px;
+  right: 0px;
+}
+.game5 {
+  position: relative;
+  bottom: 1220px;
+  left: 410px;
+}
+.game6 {
+  position: relative;
+  bottom: 1640px;
+  left: 808px;
+}
+.game7 {
+  position: relative;
+  bottom: 1570px;
+  right: 0px;
+}
+.game8 {
+  position: relative;
+  bottom: 1990px;
+  left: 410px;
+}
+.game9 {
+  position: relative;
+  bottom: 2410px;
+  left: 808px;
+}
+/* design prices */
+.pricing {
+  color: grey;
+  font-size: 30px;
+}
+/* design size all buttons on games page */
+.game1 button,
+.game2 button,
+.game3 button,
+.game4 button,
+.game5 button,
+.game6 button,
+.game7 button,
+.game8 button,
+.game9 button {
+  border-radius: 5px;
+  padding: 10px;
+  width: 500px;
+  color: white;
+  background-color: darkred;
+  box-shadow: 0 5px 15px 3px black;
+  text-align: center;
+  cursor: pointer;
+  width: 75%;
+  font-size: 13px;
+}
+.btnB {
+  border-radius: 5px;
+  padding: 10px;
+  position: relative;
+  left: 10px;
+  width: 150px;
+  height: 30px;
+  color: white;
+  background-color: darkred;
+  box-shadow: 0 5px 15px 3px black;
+  text-align: center;
+  cursor: pointer;
+  font-size: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.btnB:hover {
+  background-color: red;
+  opacity: 0.8;
+}
+
+/* create hover effect for all buttons on games page */
+.game1 button:hover,
+.game2 button:hover,
+.game3 button:hover,
+.game4 button:hover,
+.game5 button:hover,
+.game6 button:hover,
+.game7 button:hover,
+.game8 button:hover,
+.game9 button:hover {
+  background-color: red;
+  opacity: 0.8;
+}
+.psGame1_2 {
+  height: 200px;
+  width: 150px;
+  float: left;
+  padding: 10px;
+}
+.ps5Logo {
+  height: 25px;
+  width: 100px;
+}
+/* keep logo on left side of nav bar */
+.logoLeft {
+  float: left;
+}
+/* style social media icons on footer */
+.fa-instagram,
+.fa-snapchat,
+.fa-youtube,
+.fa-twitter,
+.fa-facebook {
+  background: #202020;
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+}
+.fa:hover {
+  color: red;
+  opacity: 0.8;
+}
+/* designing and positioning border */
+.border {
+  width: 45%;
+  background-color: whitesmoke;
+  margin: 0 auto;
+  margin-top: 20px;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+}
+/* designing input fields for email and password */
+#Lemail,
+#Lpassword {
+  position: relative;
+  margin-left: 100px;
+
+  height: 28px;
+  width: 350px;
+}
+#Lemail {
+  margin-left: 14px;
+  position: relative;
+  top: 80px;
+}
+#Lpassword {
+  position: relative;
+  top: 130px;
+  right: 6px;
+}
+/* design and create hove effect for login button */
+.loginBtn {
+  margin-left: 170px;
+  width: 358px;
+  height: 35px;
+  background-color: #990000;
+  cursor: pointer;
+  color: whitesmoke;
+  font-weight: bolder;
+  margin-top: 100px;
+  box-shadow: 0 5px 15px 1px black;
+}
+.loginBtn2 {
+  margin-left: 170px;
+  width: 358px;
+  height: 35px;
+  background-color: #990000;
+  cursor: pointer;
+  color: whitesmoke;
+  font-weight: bolder;
+  margin-top: 100px;
+  box-shadow: 0 5px 15px 1px black;
+  position: relative;
+  bottom: 60px;
+  left: -13px;
+}
+.subBtn {
+  margin-left: 150px;
+  width: 400px;
+  height: 35px;
+  background-color: #990000;
+  cursor: pointer;
+  color: whitesmoke;
+  font-weight: bolder;
+  margin-top: 10px;
+  box-shadow: 0 5px 15px 1px black;
+}
+.loginBtn:hover,
+.subBtn:hover,
+.loginBtn2:hover {
+  background-color: red;
+  opacity: 0.8;
+}
+/* design image for login page */
+.loginImg {
+  height: 100px;
+  width: 100px;
+  border: 2px solid black;
+  outline: 2px solid gold;
+  border-radius: 50%;
+  position: relative;
+  left: 289px;
+  top: 10px;
+}
+/* design login tab on login page */
+.log {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: whitesmoke;
+  position: relative;
+  top: 12px;
+  left: -4px;
+  padding: 10px 150px;
+  text-decoration: none;
+  color: black;
+  margin-left: 416px;
+  border-left: 1px solid black;
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+}
+/* design login tab on login page */
+.log2 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: #b0b0b0;
+  position: relative;
+  top: 12px;
+  left: -4px;
+  padding: 10px 149px;
+  text-decoration: none;
+  color: black;
+  border: 1px solid grey;
+  margin-left: 416px;
+}
+/* creating hover effects for buttons on login/reg page */
+.reg:hover {
+  background-color: #990000;
+  opacity: 0.7;
+}
+.log2:hover {
+  background-color: #990000;
+  opacity: 0.7;
+}
+/* design register tab on login page */
+.reg {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  position: relative;
+  top: 12px;
+  right: 10.5px;
+  padding: 10px 140px;
+  background-color: #b0b0b0;
+  text-decoration: none;
+  color: black;
+  border: 1px solid grey;
+}
+.reg2 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: whitesmoke;
+  position: relative;
+  top: 12px;
+  right: 7.5px;
+  padding: 10px 140px;
+  text-decoration: none;
+  color: black;
+  border-right: 1px solid black;
+  border-top: 1px solid black;
+}
+/* position and resize all input field elements */
+.emailLabel {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  position: relative;
+  top: 80px;
+  right: 100px;
+}
+.passwordLabel {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  position: relative;
+  left: 9px;
+  top: 130px;
+}
+#email2 {
+  position: relative;
+  height: 28px;
+  width: 350px;
+  position: relative;
+  top: 60px;
+  left: 175px;
+}
+#address2 {
+  position: relative;
+  height: 28px;
+  width: 350px;
+  position: relative;
+  top: 60px;
+  left: 175px;
+}
+#password2 {
+  position: relative;
+  height: 28px;
+  width: 350px;
+  position: relative;
+  top: 60px;
+  left: 175px;
+}
+#phone2 {
+  position: relative;
+  height: 28px;
+  width: 350px;
+  position: relative;
+  top: 60px;
+  left: 175px;
+}
+
+.emailLabel2 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  position: relative;
+  top: 80px;
+  left: 10px;
+}
+.passwordLabel2 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  position: relative;
+  top: 80px;
+  left: 10px;
+}
+.addressLabel2 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  position: relative;
+  top: 80px;
+  left: 10px;
+}
+
+.phoneLabel2 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  position: relative;
+  top: 80px;
+  left: 10px;
+}
+/* design/position border for basket page  */
+.basketBorder {
+  border: 2px solid black;
+  margin: 0 auto;
+  width: 75%;
+}
+.product1 {
+  border: 2px ridge rgba(0, 0, 0, 0.2);
+  margin: 0 auto;
+  width: 70%;
+  border-radius: 5px;
+}
+.bdr {
+  border: 2px ridge rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+.psGame3_basket {
+  float: left;
+  margin-left: 0px;
+  padding: 15px;
+  position: relative;
+  top: 7px;
+  left: 15px;
+  border-radius: 10px;
+  height: 200px;
+  width: 150px;
+}
+/* design h1, h2 and p tags */
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+}
+.e {
+  border: 10px solid red;
+}
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+}
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+#quantity {
+  height: 25px;
+  width: 45px;
+}
+.divider {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+#total {
+  margin-left: 1000px;
+  font-size: large;
+  font-weight: bolder;
+}
+#itemCount {
+  margin-left: 1000px;
+  font-size: large;
+  font-weight: bolder;
+}
+/* position title  */
+.basketTitle {
+  margin-left: 55px;
+  margin-top: 8px;
+}
+/* design header on basket and games page */
+.header {
+  margin: 0 auto;
+  border: 2px ridge whitesmoke;
+  width: 15%;
+  margin-left: 188px;
+  background-image: url("../Images/header.png"); /* add image as background */
+  outline: 2px ridge black;
+  border-radius: 5px;
+  height: 35px;
+}
+.consoleLogo_PS5 {
+  width: 100px;
+  height: 30px;
+  position: relative;
+  top: 10px;
+}
+.consoleLogo_switch {
+  width: 120px;
+  height: 40px;
+  position: relative;
+  top: 15px;
+}
+
+.regTxt,
+.loginTxt {
+  position: relative;
+  left: 170px;
+}
+/* design for all boxes on home page 
+        containing content of products */
+.box1 {
+  margin: 0 auto;
+  margin-left: 100px;
+  width: 25%;
+  height: 300px;
+  border: 3px solid whitesmoke;
+  background-color: white;
+}
+.box2 {
+  position: relative;
+  bottom: 340px;
+  left: 550px;
+  margin: 0 auto;
+  margin-left: 10px;
+  width: 25%;
+  height: 300px;
+  border: 3px solid whitesmoke;
+  background-color: white;
+}
+.box3 {
+  position: relative;
+  bottom: 680px;
+  left: 1000px;
+  margin: 0 auto;
+  margin-left: 10px;
+  width: 25%;
+  height: 300px;
+  border: 3px solid whitesmoke;
+  background-color: white;
+}
+/* design for all nintendo section on home page  */
+.nintendo {
+  background-color: red;
+  position: relative;
+  top: -9px;
+  left: 100px;
+  padding: 12px 142px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: black;
+}
+/* design for all playstation section on home page  */
+.playstation {
+  background-color: blue;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  position: relative;
+  bottom: 350px;
+  left: 560px;
+  padding: 12px 142px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: black;
+}
+/* design for all xbox section on home page  */
+.xbox {
+  background-color: green;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  position: relative;
+  bottom: 690px;
+  left: 1010px;
+  padding: 12px 142px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: black;
+}
+/* position and resize images for all product on web page */
+.switchBorder1 {
+  border-radius: 5px;
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.2);
+  margin: 0 auto;
+  padding: 5px 10px;
+  width: 15%;
+  font-size: 10px;
+  position: relative;
+  bottom: 0px;
+  left: 4px;
+  margin-left: 25px;
+  color: blue;
+}
+.switchBorder2 {
+  border-radius: 5px;
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.2);
+  margin: 0 auto;
+  padding: 19px 10px;
+  width: 15%;
+  font-size: 10px;
+  margin-left: 25px;
+  position: relative;
+  bottom: 185px;
+  left: 120px;
+  color: blue;
+}
+.switchBorder3 {
+  border-radius: 5px;
+  margin: 0 auto;
+  padding: 15px 10px;
+  width: 15%;
+  font-size: 10px;
+  margin-left: 260px;
+  position: relative;
+  bottom: 373px;
+  color: blue;
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.2);
+}
+/* position and resize images for all product on web page */
+.psBorder1 {
+  border-radius: 5px;
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.2);
+  margin: 0 auto;
+  padding: 5px 10px;
+  width: 15%;
+  font-size: 10px;
+  position: relative;
+  bottom: 0px;
+  left: 4px;
+  margin-left: 25px;
+  color: blue;
+}
+.psBorder2 {
+  border-radius: 5px;
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.2);
+  margin: 0 auto;
+  padding: 11px 10px;
+  width: 15%;
+  font-size: 10px;
+  margin-left: 25px;
+  position: relative;
+  bottom: 180px;
+  left: 120px;
+  color: blue;
+}
+.psBorder3 {
+  border-radius: 5px;
+  margin: 0 auto;
+  padding: 15px 10px;
+  width: 15%;
+  font-size: 10px;
+  margin-left: 260px;
+  position: relative;
+  bottom: 357px;
+  color: blue;
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.2);
+}
+/* position and resize images for all product on web page */
+.xboxBorder1 {
+  border-radius: 5px;
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.2);
+  margin: 0 auto;
+  padding: 15px 10px;
+  width: 15%;
+  font-size: 10px;
+  position: relative;
+  bottom: 0px;
+  left: 4px;
+  margin-left: 25px;
+  color: blue;
+}
+.xboxBorder2 {
+  border-radius: 5px;
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.2);
+  margin: 0 auto;
+  padding: 15px 10px;
+  width: 15%;
+  font-size: 10px;
+  margin-left: 25px;
+  position: relative;
+  bottom: 177px;
+  left: 120px;
+  color: blue;
+}
+.xboxBorder3 {
+  border-radius: 5px;
+  margin: 0 auto;
+  padding: 15px 10px;
+  width: 15%;
+  font-size: 10px;
+  margin-left: 260px;
+  position: relative;
+  bottom: 376px;
+  color: blue;
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.2);
+}
+/* design border on game page */
+.productBorder {
+  border: 2px solid black;
+  margin: 0 auto;
+  width: 75%;
+}
+.test {
+  border: 5px solid black;
+}
+.nameDesign {
+  font-size: xx-large;
+}
+.des {
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  max-width: 300px;
+  margin-left: 9px;
+  width: 50%;
+  text-align: center;
+  font-family: arial;
+}
+.row {
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  margin: 0 auto;
+  width: 95%;
+  padding: 10px 0px;
+  margin-top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+}
+.gameName {
+  font-size: 30px;
+  margin-top: -10px;
+  font-family: sans-serif;
+  font-style: oblique;
+  font-weight: bold;
+}
+.table {
+  border: 10px solid blue;
+}
+input[type="submit"],
+#rm {
+  border-radius: 5px;
+  position: relative;
+  left: 10px;
+  width: 150px;
+  height: 30px;
+  color: white;
+  background-color: darkred;
+  box-shadow: 0 5px 15px 3px black;
+  text-align: center;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+#email2 {
+  position: relative;
+  height: 28px;
+  width: 350px;
+  position: relative;
+  top: 50px;
+  left: 175px;
+}
+#emailCon {
+  position: relative;
+  height: 28px;
+  width: 350px;
+  position: relative;
+  top: 60px;
+  left: 175px;
+}
+#address2 {
+  position: relative;
+  height: 28px;
+  width: 350px;
+  position: relative;
+  top: 60px;
+  left: 175px;
+}
+#password2 {
+  position: relative;
+  height: 28px;
+  width: 350px;
+  position: relative;
+  top: 60px;
+  left: 175px;
+}
+#password2_det {
+  position: relative;
+  height: 28px;
+  width: 350px;
+  position: relative;
+  top: 60px;
+  left: 153px;
+}
+#passwordCon {
+  position: relative;
+  height: 28px;
+  width: 350px;
+  position: relative;
+  top: 60px;
+  left: 175px;
+}
+#phone2 {
+  position: relative;
+  height: 28px;
+  width: 350px;
+  position: relative;
+  top: 60px;
+  left: 175px;
+}
+#name2, #name {
+  position: relative;
+  top: 60px;
+  right: 107px;
+  margin-left: 45px;
+  height: 28px;
+  width: 350px;
+  
+}
+.emailLabel2 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  position: relative;
+  top: 80px;
+  left: 10px;
+}
+
+.emailLabel3 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  position: relative;
+  top: 90px;
+  left: 10px;
+}
+.passwordLabel2 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  position: relative;
+  top: 80px;
+  left: 10px;
+}
+.passwordLabel3 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  position: relative;
+  top: 80px;
+  left: 10px;
+}
+.addressLabel2 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  position: relative;
+  top: 80px;
+  left: 10px;
+}
+.nameLabel2 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  position: relative;
+  top: 60px;
+  right: 100px;
+}
+.phoneLabel2 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  position: relative;
+  top: 80px;
+  left: 10px;
+}
+.confirm_header {
+  text-align: center;
+  font-size: 50px;
+}
+.confirm_border {
+  border: 2px solid black;
+  margin: 0 auto;
+  width: 75%;
+  height: 1000px;
+}
+#RegSuccess {
+  text-align: center;
+}
+.label1 {
+  display: inline-block;
+  width: 110px;
+  font-size: medium;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  position: relative;
+  left: 8px;
+}
+.nameLabel2 {
+  position: relative;
+  display: inline-block;
+  width: 110px;
+  font-size: medium;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#input1 {
+  margin-left: 30px;
+  height: 30px;
+  width: 400px;
+  border-radius: 10px;
+}
+#input2, #input3, #sname, #email, #address, #pn, #pass, #pass2, #email2 {
+  margin-left: 45px;
+  height: 28px;
+  width: 350px;
+}
+.detBorder {
+  border: 2px solid rgba(0, 0, 0, 0.2);
+}
+.detHeader {
+  border: 2px solid rgba(0, 0, 0, 0.2);
+}
+.regForm {
+  position: relative;
+  bottom: 0px;
+}
+.conBtn {
+  background-color: red;
+  padding: 10px 15px;
+  border-radius: 5px;
+  color: whitesmoke;
+  text-decoration: none;
+  position: relative;
+  top: 10px;
+}

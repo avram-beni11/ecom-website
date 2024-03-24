@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- link to font awesome library -->
+    <link rel="stylesheet" type="text/css" href="../CSS/style.css"/> <!-- link to CSS file -->
+    <body style="background-color:#D8D8D8;"> 
+      <div class="navBar"> <!-- create nav bar -->
+        <div class="logoLeft"> <!-- keep logo to left side of navigation bar -->
+      <img class="logo" src="../Images/shopLogo.png"  alt="Game Shop Logo"/>   
+        </div>
+  <!-- Create links to all pages -->
+  <a href="index.html">Home</a>
+  <a href="product.html">Games</a>
+          
+          <input type="text" class="search" placeholder="Search...">
+          <button class="btn">Search</button> <!-- Add search bar-->
+          <div class="rightNavBar"> <!-- push basket and login/reg pages to right side-->
+            <a class="active" href="login.html">Login | Register</a>
+                <a href="basket.html"><img class="basket" src="../Images/basket.png"  alt="basket icon"/></a> <!-- add link to basket image -->
+          </div>
+      </div>
+
+
+</head>
+<!-- create tabs for user to access reg page -->
+<a class="log">Login</a>
+<a class="reg" href="register.html">Register</a>
+
+<div class="border">
+  <form onsubmit = "return false;"> <!-- prevent data from being submitted -->
+    <img class="loginImg" src="../Images/loginImg.png"  alt="Login Image"/> <!-- add image to page -->
+    <label class="emailLabel">Email:</label> 
+    <input type="text" id="email"><br> <!-- text field for email -->
+    <label class="passwordLabel">Password:</label>
+    <input type="password" id="password"><br><br><br><br> <!-- password field for password -->
+    <input class="loginBtn" type="submit" value="Login"> <!-- create button to submit data -->
+    <p class="regTxt">Not Registered? <a href="register.html">Register</a> </p> <!-- add link to register page -->
+    <br><br><br><br><br><br><br><br>
+  </form>
+
+</div>
+
+<!-- Create footer -->
+<!-- Create footer -->
+<footer>
+  <div class="footer">
+    <p>GameShop<br></p>
+    <!-- Add social media logos from font awesome library -->
+    <a href="https://twitter.com/?lang=en" class="fa fa-twitter"></a>
+    <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+    <a href="https://www.snapchat.com/" class="fa fa-snapchat"></a>
+    <a href="https://www.youtube.com/" class="fa fa-youtube"></a>
+    <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+  </div>
+</footer>
+<!-- close tags-->
+</body>
+</html>
